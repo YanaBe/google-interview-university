@@ -13,7 +13,7 @@
 ערכתי וקיצרתי עבורכם את מה שלדעתי נדרש עבור מהנדס תוכנה מתחיל עם מעט ניסיון מתוך המקורות הנ"ל.
 עבור אלו מכם הרוצים הסבת מקצוע מפיתוח אתרים או פיתוח תוכנה בתפקידים כאלו ואחרים שאינם הנדסת תוכנה.
 עבור אלו מכם בעלי הניסיון כמהנדסי תוכנה, בייחוד אם ישנן שנות ניסיון רבות כמהנדס תוכנה בתחום, המשימות הנ"ל עלולות להיות קלות מדי והציפיות מהם בראיון לגוגל יהיו הרבה יותר גבוהות. 
-במידה ואתם בעלי מספר שנות ניסיון כמפתחים, גוגל רואה בהנדסת תוכנה משהו שונה מתכנות נטו ולכן הדרישות הן שונות ודבוהות יותר.
+במידה ואתם בעלי מספר שנות ניסיון כמפתחים, גוגל רואה בהנדסת תוכנה משהו שונה מתכנות נטו ולכן הדרישות הן שונות וגבוהות יותר.
 עבור מהנדסי המערכת ומהנדסי האמינות שביניכם, השקיעו יותר בחומר המופיע ב"רשימת הרשות" זוהי רשימת משימות המכילה נושאי רשות עבור מהנדס תוכנה.  
 ---
 ## תוכן העניינים Table of Contents
@@ -93,30 +93,30 @@
     - [מעבדים](#compilers)
     - [מספרים בעלי נקודה צפה](#floating-point-numbers)
     - [יוניקוד- קידוד אחיד](#unicode)
-    - [Endianness](#endianness)
-    - [Emacs and vi(m)](#emacs-and-vim)
-    - [Unix command line tools](#unix-command-line-tools)
-    - [Information theory](#information-theory)
-    - [Parity & Hamming Code](#parity--hamming-code)
-    - [Entropy](#entropy)
-    - [Cryptography](#cryptography)
-    - [Compression](#compression)
+    - [סדר בתים שמירת ערכים שלמים בזיכרוןEndianness](#endianness)
+    - [vi(m)אימאקס ו ](#emacs-and-vim)
+    - [פקדי לינוקס](#unix-command-line-tools)
+    - [תאוריית המידע](#information-theory)
+    - [שיווי וקוד המינג](#parity--hamming-code)
+    - [אנטרופיה](#entropy)
+    - [קריפטוגרפיה (הצפנה)](#cryptography)
+    - [השוואה](#compression)
     - [Networking](#networking) (if you have networking experience or want to be a systems engineer, expect questions)
-    - [Computer Security](#computer-security)
-    - [Garbage collection](#garbage-collection)
-    - [Parallel Programming](#parallel-programming)
-    - [Messaging, Serialization, and Queueing Systems](#messaging-serialization-and-queueing-systems)
-    - [Fast Fourier Transform](#fast-fourier-transform)
-    - [Bloom Filter](#bloom-filter)
-    - [HyperLogLog](#hyperloglog)
+    - [Computer Securityאבטחת מידע ](#computer-security)
+    - [Garbage collectionאוסף נתוני זבל](#garbage-collection)
+    - [Parallel Programmingתכנות מקבילי](#parallel-programming)
+    - [Messaging, Serialization, and Queueing Systemsמסרים, סדרות - סריאליזציה ומערכות תור](#messaging-serialization-and-queueing-systems)
+    - [טרנספורמציית פוריה](#fast-fourier-transform)
+    - [פילטר בלום ](#bloom-filter)
+    - [HyperLogLog אלגוריתם ](#hyperloglog)
     - [Locality-Sensitive Hashing](#locality-sensitive-hashing)
-    - [van Emde Boas Trees](#van-emde-boas-trees)
-    - [Augmented Data Structures](#augmented-data-structures)
+    - [עצי ואן-אמד-בואס](#van-emde-boas-trees)
+    - [בסיסי נתונים רבודים](#augmented-data-structures)
     - [Tries](#tries)
-    - [N-ary (K-ary, M-ary) trees](#n-ary-k-ary-m-ary-trees)
-    - [Balanced search trees](#balanced-search-trees)
-        - AVL trees
-        - Splay trees
+    - [N-ary (K-ary, M-ary) עצי](#n-ary-k-ary-m-ary-trees)
+    - [עצי חיפוש מאוזנים](#balanced-search-trees)
+        - AVL עצי
+        - Splay עצי
         - Red/black trees
         - 2-3 search trees
         - 2-3-4 Trees (aka 2-4 trees)
@@ -124,18 +124,18 @@
         - B-Trees
     - [k-D Trees](#k-d-trees)
     - [Skip lists](#skip-lists)
-    - [Network Flows](#network-flows)
-    - [Disjoint Sets & Union Find](#disjoint-sets--union-find)
-    - [Math for Fast Processing](#math-for-fast-processing)
+    - [Network Flowsתזליכי זרימה ברשתות ](#network-flows)
+    - [הפרדה איחוד וחיפוש ](#disjoint-sets--union-find)
+    - [שיטות חישוביות לעיבוד מהיר ](#math-for-fast-processing)
     - [Treap](#treap)
-    - [Linear Programming](#linear-programming)
-    - [Geometry, Convex hull](#geometry-convex-hull)
-    - [Discrete math](#discrete-math)
-    - [Machine Learning](#machine-learning)
-    - [Go](#go)
-- [Additional Detail on Some Subjects](#additional-detail-on-some-subjects)
-- [Video Series](#video-series)
-- [Computer Science Courses](#computer-science-courses)
+    - [תכנות לינארי](#linear-programming)
+    - [גיאומטריה, קונבקס הול](#geometry-convex-hull)
+    - [מתמטיקה דיסקרטית ](#discrete-math)
+    - [מערכות לומדות](#machine-learning)
+    - [GO](#go)
+- [פרטים נוספים על מספר נושאים ](#additional-detail-on-some-subjects)
+- [סרטי הדרכה](#video-series)
+- [קורסים במדעי המחשב](#computer-science-courses)
 
 ---
 
@@ -143,27 +143,22 @@
 
 אני מתכונן לראיון בגוגל תוך כדי יישום תוכנית זו. בניתי את הרשת, בניתי שרותים ברשת, אני בונה ומשיק סטארטאפים מאז 1997.
 יש לי תואר בכלכלה, לא במדעי המחשב. הייתה לי קריירה מוצלחת אבל אני חולם לעבוד בגוגל. 
-אני רוצה להתקדם ולעבוד עם מערכות גדולות יותר ולקבל הבנה מעמירה של מערכות מחשוב, אלגוריתמים יעילים, התנהגות בסיסי נתונים, 
-I'm following this plan to prepare for my Google interview. I've been building the web, building
-services, and launching startups since 1997. I have an economics degree, not a CS degree.  I've
-been very successful in my career, but I want to work at Google. I want to progress into larger systems
-and get a real understanding of computer systems, algorithmic efficiency, data structure performance,
-low-level languages, and how it all works. And if you don't know any of it, Google won't hire you.
-When I started this project, I didn't know a stack from a heap, didn't know Big-O anything, anything about trees, or how to
-traverse a graph. If I had to code a sorting algorithm, I can tell ya it wouldn't have been very good.
-Every data structure I've ever used was built into the language, and I didn't know how they worked
-under the hood at all. I've never had to manage memory unless a process I was running would give an "out of
-memory" error, and then I'd have to find a workaround. I've used a few multidimensional arrays in my life and
-thousands of associative arrays, but I've never created data structures from scratch.
+אני רוצה להתקדם ולעבוד עם מערכות גדולות יותר ולקבל הבנה מעמירה של מערכות מחשוב, יעילות אלגוריתמים, התנהגות בסיסי נתונים, מודלים מתקדמים של נתונים, שפות מכונה ואיך כל זה עובד. 
+ואם אתם לא יודעים משהו מכל זה, גוגל לא ישכרו אתכם. 
+כשתהחלתי את הפרויקט הזה, לא ידעתי מימיני ומשמאלי, לא היה לי מושג קלוש על עצים, 
+או איך ליצור או לנתב גרף. אילו הייתי צריך לכתוב קוד למימוש אלגוריתם מיון, זה לא היה נגמר טוב. 
+כל מבנה נתונים נבנה לתוך שפה מסוימת ולי לא היה מושג איך זה נראה או עובד מתחת למכסה המנוע.
+מעולם לא הייתי צריך להקצות זיכרון או לנהל זיכרון, אלא אם כן הייתה שגיעה מסוג "אין מספיק זיכרון" ואם נתקלתי בשגיאה זו, הייתי פשוט מוצא פתרון אחר. 
+השתמשתי במערכים רב מימדיים רק מספר פעמים בחיי, ואלפי מערכים מקושרים אך מעולם לא בניתי טיפוס נתונים מאפס.   
+לאחר שעברתי על תוכנית זו, יש בי ביטחון רב כי גוגל יציאו לי משרה. זוהי תוכנית ארוכה וייקח לי חודשים לממשה.
+אם אתם מכירים ולו חלק מהנושאים שמניתי, תוכנית זו תיקח לכם הרבה פחות זמן בהתאמה.
 
-But after going through this study plan I have high confidence I'll be hired. It's a long plan. It's going to take me
-months. If you are familiar with a lot of this already it will take you a lot less time.
 
-## How to use it
+## כיצד להשתמש במדריך?How to use it
+עליכם להתרכז במעבר על כל הנקודות מלמעלה למטה. כל מה שנמנה לעיל הינם ראשי הפרקים לנושאים 
 
-Everything below is an outline, and you should tackle the items in order from top to bottom.
-
-I'm using Github's special markdown flavor, including tasks lists to check progress.
+אני משתמש בתכונה של גיט, על מנת לבדוק התקדמות  במימוש המשימות 
+Github's special markdown flavor
 
 - [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
 
