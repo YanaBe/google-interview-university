@@ -1,5 +1,5 @@
 
-## על מה מדובר כאן?
+## על מה נדבר כאן?
 זוהי התוכנית הפעולה אותה הגיתי על מנת להפוך בהצלחה ממפתח אתרים, ללא תואר במדעי המחשב, למהנדס תוכנה בחברת גוגל.   
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
@@ -22,12 +22,12 @@
 - [למה להשתמש בזה?](#why-use-it)
 - [איך להשתמש בזה?](#how-to-use-it)
 - [כנסו לאווירת גוגל](#get-in-a-googley-mood)
-- [אז מה, בסוף התחלתי לעבוד בגוגל?](#did-i-get-the-job)
+- [אז מה, בסוף התחלתי לעבוד בגוגל?](#  האם קיבלתי את העבודה??? האם המאמץ השתלם?)
 - [אחרי!!](#follow-along-with-me)
 - [אל תרגישו שאתם לא חכמים מספיק, אתם כן](#dont-feel-you-arent-smart-enough)
 - [הכל אודות גוגל](#about-google)
 - [חומרים ומקורות בוידאו](#about-video-resources)
-- [תהליך הראיון והכנה כללית לראיון](#interview-process--general-interview-prep)
+- [תהליך הראיון והכנה כללית לראיון#](תהליך הראיון וההכנה כללית לראיון)
 - [תבחרו שפה אחת בה תתראיינו](#pick-one-language-for-the-interview)
 - [רשימת ספרות ומקורות מידע](#book-list)
 - [לפני שאתם מתחילים](#before-you-get-started)
@@ -117,14 +117,14 @@
     - [עצי חיפוש מאוזנים](#balanced-search-trees)
         - AVL עצי
         - Splay עצי
-        - Red/black trees
-        - 2-3 search trees
-        - 2-3-4 Trees (aka 2-4 trees)
-        - N-ary (K-ary, M-ary) trees
-        - B-Trees
-    - [k-D Trees](#k-d-trees)
-    - [Skip lists](#skip-lists)
-    - [Network Flowsתזליכי זרימה ברשתות ](#network-flows)
+        - עצים אדומים שחורים
+        - 2-3 עצי חיפוש
+        - 2-3-4 עצים (aka 2-4 עצים)
+        - N-ary (K-ary, M-ary) עצים
+        - B-עצי
+    - [k-D עצי](#k-d-trees)
+    - [רשימות דילוג](#skip-lists)
+    - [תזליכי זרימה ברשתות ](#network-flows)
     - [הפרדה איחוד וחיפוש ](#disjoint-sets--union-find)
     - [שיטות חישוביות לעיבוד מהיר ](#math-for-fast-processing)
     - [Treap](#treap)
@@ -159,88 +159,90 @@
 
 אני משתמש בתכונה של גיט, על מנת לבדוק התקדמות  במימוש המשימות 
 Github's special markdown flavor
+כל משימה שמסיימים ניתן לסמן בהתאמה וככה לעקוב אחר מימוש התוכנית
+- [x] צרו ענף חדש על מנת שתוכלו לבדוק פריטים מסוג זה, הוסיפו את האיקס בסוגריים מרובעים [x]
+ וזהו רצף הפקודות שעליכם להוסיף לאחר שיצרתם ענף משלכם מהמאסטר של התוכנית
 
-- [x] Create a new branch so you can check items like this, just put an x in the brackets: [x]
 
-
-    Fork a branch and follow the commands below
-
-`git checkout -b progress`
-
-`git remote add jwasham https://github.com/jwasham/google-interview-university`
-
-`git fetch --all`
+   `git checkout -b progress`
+   `git remote add jwasham https://github.com/jwasham/google-interview-university`
+   `git fetch --all`
+   `git add . `
+   `git commit -m "Marked x" `
+   `git rebase jwasham/master `
+   `git push --force `
+   
+סמנו את כל הריבועים הריקים עם השלמת המשימה הרלוונטית    
 
     Mark all boxes with X after you completed your changes
 
-`git add . `
+[ניתן לקרוא עוד על תכונת הסימון של גיט](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
-`git commit -m "Marked x" `
+##  נעבור למצב גוגל
 
-`git rebase jwasham/master `
+נא להדפיס שלט גדול:
+עובד גוגל לעתיד! 
+ "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)"
+(https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
+ולהקפיד להיות עם העיניים על המטרה שסימנתם
+Print out a sign (or two) and keep your eyes on the prize.
 
-`git push --force `
 
-[More about Github-flavored markdown](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-## Get in a Googley Mood
-
-Print out a "[future Googler](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)" sign (or two) and keep your eyes on the prize.
-
-[![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
-
-## Did I Get the Job?
-
-I'm in the queue right now. Hope to interview soon.
+## האם קיבלתי את העבודה??? האם המאמץ השתלם?
+אני כרגי נמצא במאגר, מחכה לראיונות בעתיד ותודה לשולח במלצה
 
     Thanks for the referral, JP.
 
-## Follow Along with Me
+##  תעקבו אחרי המשך הסיפור האישי שלי
 
-My story: [Why I Studied Full-Time for 8 Months for a Google Interview](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
+:הסיפור שלי
+My story: [למה למדתי במשך 8 חודשים במקום לעבוד לראיון בגוגל](https://medium.com/@googleyasheck/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)
 
-I'm on the journey, too. Follow along:
+אני כרגע נמצא במהלך המסע שלי, עיקבו אחרי:
  
-- **Blog**: [GoogleyAsHeck.com](https://googleyasheck.com/)
-- Twitter: [@googleyasheck](https://twitter.com/googleyasheck)
-- Twitter: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
-- Google+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
-- LinkedIn: [johnawasham](https://www.linkedin.com/in/johnawasham)
+- **בלוג**: [GoogleyAsHeck.com](https://googleyasheck.com/)
+- טוויטר: [@googleyasheck](https://twitter.com/googleyasheck)
+- טוויטר: [@StartupNextDoor](https://twitter.com/StartupNextDoor)
+- גוגל+: [+Googleyasheck](https://plus.google.com/+Googleyasheck)
+- לינקדאין: [johnawasham](https://www.linkedin.com/in/johnawasham)
 
 ![John Washam - Google Interview University](https://dng5l3qzreal6.cloudfront.net/2016/Aug/book_stack_photo_resized_18_1469302751157-1472661280368.png)
 
-## Don't feel you aren't smart enough
+## אל תרגישו שאתם לא מספיק חכמים
 - Google engineers are smart, but many have an insecurity that they aren't smart enough, even though they work at Google.
 - [The myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
 - [It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## About Google
+## הכל אודות גוגל
 
-- [ ] For students - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
-- [ ] How Search Works:
-    - [ ] [The Evolution of Search (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
-    - [ ] [How Search Works - the story](https://www.google.com/insidesearch/howsearchworks/thestory/)
-    - [ ] [How Search Works](https://www.google.com/insidesearch/howsearchworks/)
-    - [ ] [How Search Works - Matt Cutts (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
-    - [ ] [How Google makes improvements to its search algorithm (video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
+- [ ] עבור התלמידים או הסטודנטים שבינינו - [Google Careers: Technical Development Guide](https://www.google.com/about/careers/students/guide-to-technical-development.html)
+- [ ] כיצד עובד החיפוש:
+    - [ ] [התפתחות, אבולוציית החיפוש (video)](https://www.youtube.com/watch?v=mTBShTwCnD4)
+    - [ ] [כיצד עובד החיפוש- הסיפור מאחורי החיפוש](https://www.google.com/insidesearch/howsearchworks/thestory/)
+    - [ ] [כיצד עובד החיפוש](https://www.google.com/insidesearch/howsearchworks/)
+    - [ ] [כיצד עובד החיפוש-  מאט קטס (video)](https://www.youtube.com/watch?v=BNHR6IQJGZs)
+    - [ ] [כיצד גוגל משפרת את אלגוריתם החיפוש שלה?(video)](https://www.youtube.com/watch?v=J5RZOU6vK4Q)
 - [ ] Series:
-    - [ ] [How Google Search Dealt With Mobile](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
-    - [ ] [Google's Secret Study To Find Out Our Needs](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
-    - [ ] [Google Search Will Be Your Next Brain](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
-    - [ ] [The Deep Mind Of Demis Hassabis](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
-- [ ] [Book: How Google Works](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
-- [ ] [Made by Google announcement - Oct 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
+    - [ ] [כיצד התמודד החיפוש של גוגל עם המובייל - המכשירים הניידים](https://backchannel.com/how-google-search-dealt-with-mobile-33bc09852dc9)
+    - [ ] [המחקר הסודי של גוגל לגילוי הצרכים שלנו](https://backchannel.com/googles-secret-study-to-find-out-our-needs-eba8700263bf)
+    - [ ] [החיפוש של גוגל יהיה המוח החדש שלכם](https://backchannel.com/google-search-will-be-your-next-brain-5207c26e4523)
+    - [ ] [עומק התודעה של דמיס הסאביס](https://backchannel.com/the-deep-mind-of-demis-hassabis-156112890d8a)
+- [ ] [ספר לקריאה נוספת: כיצד עובדת גוגל? ](https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582344)
+- [ ] [נוצר על ידי הודעות גוגל וידאו מאוקטובר 2016 (video)](https://www.youtube.com/watch?v=q4y0KOeXViI)
 
-## About Video Resources
+## קצת על המקורות המצורפים בוידאו
 
-Some videos are available only by enrolling in a Coursera, EdX, or Lynda.com class. These are called MOOCs.
-Sometimes the classes are not in session so you have to wait a couple of months, so you have no access. Lynda.com courses are not free.
+כמה מהסרטונים זמינים רק לאחר הצטרפות והרשמה לקורסים מסוימים בפלטפורמות כגון
+EdX, or Lynda.com 
+סרטונים אלו נקראים: MOOCs.
+לעיתים הקורסים אינם ניתנים במהלך הזמן אותו בחרתם לבלות בלמידה לקראת הרעיון, ועליכם להמתין עד לתחילת הסמסטר הרלוונטי. 
+חלק מהקורסים אינם ניתנים בחינם. 
+(הערת המתרגמת, חלק מהקורסים עלולים להיות חסומים לצפייה מישראל אל בטוח שניתן למצוא תחליף הולם ברשת**)
+אשמח לעזרתכם במציאת קורסים או הרצאות חינמיות ביו טיוב, איתן ניתן להחליף את החומרים שאינם זמינים תמיד בחינם בשלב זה. 
+אני מאוד אוהב להשתמש בהרצאות אוניברסיטאיות ללמידה, כך שאם ישנם מאגרים נוספים של הרצאות פתוחות תרגישו חופשי לשתף
 
-    I'd appreciate your help to add free and always-available public sources, such as YouTube videos to accompany the online course videos.
-    I like using university lectures.
 
-
-## Interview Process & General Interview Prep
+## תהליך הראיון וההכנה אליו
 
 - [ ] Videos:
     - [ ] [How to Work at Google: Prepare for an Engineering Interview (video)](https://www.youtube.com/watch?v=ko-KkSmp-Lk)
