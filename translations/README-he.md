@@ -1,5 +1,5 @@
 
-## על מה נדבר כאן?
+##what-is-it על מה נדבר כאן?
 זוהי התוכנית הפעולה אותה הגיתי על מנת להפוך בהצלחה ממפתח אתרים, ללא תואר במדעי המחשב, למהנדס תוכנה בחברת גוגל.   
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://dng5l3qzreal6.cloudfront.net/2016/Aug/coding_board_small-1470866369118.jpg)
 
@@ -18,7 +18,7 @@
 ---
 ## תוכן העניינים Table of Contents
 
-- [על מה מדובר כאן?](#what-is-it)
+- [על מה נדבר כאן?](#what-is-it)
 - [למה להשתמש בזה?](#why-use-it)
 - [איך להשתמש בזה?](#how-to-use-it)
 - [כנסו לאווירת גוגל](#get-in-a-googley-mood)
@@ -189,7 +189,7 @@ Print out a sign (or two) and keep your eyes on the prize.
 
 
 ## האם קיבלתי את העבודה??? האם המאמץ השתלם?
-אני כרגי נמצא במאגר, מחכה לראיונות בעתיד ותודה לשולח במלצה
+אני כרגע נמצא במאגר קורות החיים של גוגל, מחכה לראיונות בעתיד ותודה לשולח במלצה
 
     Thanks for the referral, JP.
 
